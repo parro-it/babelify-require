@@ -10,23 +10,29 @@
   },
   "keywords": [],
   "engines": {
-    "node": ">=5"
+    "node": ">=4"
   },
   "eslintConfig": {
-    "extends": "js",
-    "env": {
-      "node": true,
-      "browser": true,
-      "es6": true
-    }
+    "extends": [
+      "js",
+      "features"
+    ]
   },
   "devDependencies": {
     "eslint": "^1.10.3",
+    "eslint-config-features": "^1.1.3",
     "eslint-config-js": "^2.0.2",
     "faucet": "0.0.1",
     "tape": "^4.2.2"
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "co": "^4.6.0",
+    "require-from-string": "^1.1.0",
+    "thenify": "^3.2.0"
+  }
 }
