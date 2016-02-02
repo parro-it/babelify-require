@@ -1,6 +1,6 @@
 # babelify-require
 
-
+> Apply babel to a module and then require it.
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/babelify-require.svg)](http://travis-ci.org/parro-it/babelify-require)
 [![NPM module](https://img.shields.io/npm/v/babelify-require.svg)](https://npmjs.org/package/babelify-require)
@@ -16,6 +16,8 @@ npm install --save babelify-require
 
 ```javascript
   const babelifyRequire = require('babelify-require');
+  const result = await babelifyRequire('./es6-module.js');
+  //result === module exports
 ```
 
 ## License

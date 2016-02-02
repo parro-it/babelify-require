@@ -1,7 +1,7 @@
 {
   "name": "babelify-require",
   "version": "0.0.1",
-  "description": "",
+  "description": "Apply babel to a module and then require it.",
   "repository": "parro-it/babelify-require",
   "license": "MIT",
   "author": "parro-it",
